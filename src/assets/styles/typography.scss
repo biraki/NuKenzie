@@ -1,0 +1,58 @@
+.title{
+    font-family: var(--font-primary);
+    line-height: 30px;
+    font-weight: 700;
+
+    &.one{
+        font-size: 2.375rem;
+    }
+    &.two{
+        font-size: 1.375rem;
+    }
+    &.three{
+        font-size: 1.25rem;
+    }
+    &.four{
+        font-size: 0.75rem;
+    }
+    &.gray1{
+        color: var(--color-gray1);
+    }
+    &.gray2{
+        color: var(--color-gray2);
+    }
+    &.gray3{
+        color: var(--color-gray3);
+    }
+    &.gray4{
+        color: var(--color-gray4);
+    }
+}
+
+.text{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    color: var(--color-gray3);
+
+    &.one{
+        line-height: 1.625rem;
+        font-size: 1rem;
+
+    }
+    &.two{
+        line-height: 1.375rem;
+        font-size: 0.75rem;
+    }
+    &.gray1{
+        color: var(--color-gray1);
+    }
+    &.gray2{
+        color: var(--color-gray2);
+    }
+    &.gray3{
+        color: var(--color-gray3);
+    }
+    &.gray4{
+        color: var(--color-gray4);
+    }
+}

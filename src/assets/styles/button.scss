@@ -1,0 +1,39 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &.sm{
+        background-color: var(--color-gray2);
+        color: var(--color-gray4);
+        height: 20px;
+        width: 50px;
+        border-radius: 2px;
+        font-family: var(--font-primary);
+        font-weight: 400;
+        font-size: 0.625rem;
+        line-height: 0.875rem;
+
+        &:hover{
+            background-color: var(--color-gray4);
+            color: var(--color-gray2);
+        }
+    }
+    &.bg{
+        background-color: var(--color-primary);
+        color: white;
+        height: 48px;
+        width: 100%;
+        border-radius: 8px;
+        font-family: var(--font-primary);
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.25rem;
+
+        &:hover{
+            background-color: var(--color-primary2);
+        }
+    }
+
+}

@@ -1,0 +1,13 @@
+.container{
+    & > select{
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        height: 50px;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 10px;
+        background-color: var(--color-gray1);
+    }
+}

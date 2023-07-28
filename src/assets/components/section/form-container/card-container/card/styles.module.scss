@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-gray1);
+    border-radius: 4px;
+    padding: 20px;
+    gap: 3px;
+    border-left: 5px solid ;
+
+    &.green{
+        border-color: var(--color-secondary);
+    }
+    &.grey{
+        border-color: var(--color-gray2);
+    }
+}
+
+.price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
