@@ -1,5 +1,5 @@
 import { Card } from "./card";
-import styles from "./styles.module.scss"
+import styles from "./styles.module.scss";
 
 export const CardContainer = ({ cardList, removeCard }) => {
   return (
@@ -19,7 +19,7 @@ export const CardContainer = ({ cardList, removeCard }) => {
           ))}
         </ul>
       ) : (
-        <h3 className="title two">Você ainda não possui nenhum lançamento</h3>
+        <h3 className={`title two ${styles.title}`}>Você ainda não possui nenhum lançamento</h3>
       )}
     </>
   );

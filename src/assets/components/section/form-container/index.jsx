@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CardContainer } from "./card-container";
 import { Form } from "./form";
 import { v4 as uuidv4 } from "uuid";
-import styles from "./styles.module.scss"
+import styles from "./styles.module.scss";
 
 export const FormSection = () => {
   const [cardList, setCardList] = useState([]);
@@ -44,7 +44,7 @@ export const FormSection = () => {
                     })}
                 </p>
               </div>
-                <p className="text two">O valor se refere ao saldo</p>
+              <p className="text two">O valor se refere ao saldo</p>
             </div>
           ) : (
             ""
